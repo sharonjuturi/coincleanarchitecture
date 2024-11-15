@@ -20,20 +20,17 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            setContent {
-                Scaffold(topBar = {
-                    TopAppBar(
-                        title = { Text("CoinsList") },
-                        colors = TopAppBarDefaults.mediumTopAppBarColors(
-                            containerColor = Color.Gray
-                        )
+            Scaffold(topBar = {
+                TopAppBar(
+                    title = { Text("CoinsList") },
+                    colors = TopAppBarDefaults.mediumTopAppBarColors(
+                        containerColor = Color.Gray
                     )
-                }, content = { padding ->
-                    // Your content goes here
-                    CoinListScreen(paddingValues = padding)
-                })
-
-            }
+                )
+            }, content = { padding ->
+                // Your content goes here
+                CoinListScreen(paddingValues = padding)
+            })
         }
     }
 }
