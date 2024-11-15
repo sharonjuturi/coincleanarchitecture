@@ -34,6 +34,7 @@ The app is built using Clean Architecture principles:
 
 ## Screenshots
 
-https://github.com/user-attachments/assets/e4ddcf68-8a92-46f5-9c74-01c8a13eec40
+![shared image](https://github.com/user-attachments/assets/e4ddcf68-8a92-46f5-9c74-01c8a13eec40)
+
 
 
