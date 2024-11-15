@@ -1,4 +1,4 @@
-package com.example.coincleanarchitecture.data.remote
+package com.example.coincleanarchitecture.data.remote.dto
 
 import com.example.coincleanarchitecture.domain.model.Coin
 import com.google.gson.annotations.SerializedName

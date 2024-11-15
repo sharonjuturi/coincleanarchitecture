@@ -1,11 +1,11 @@
-package com.example.coinscleanarchiture.presentation
+package com.example.coincleanarchitecture.presentation
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.coincleanarchitecture.common.Resource
-import com.example.coinscleanarchiture.domain.use_cases.GetCoinUseCase
+import com.example.coincleanarchitecture.domain.use_cases.GetCoinUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOn
@@ -36,7 +36,7 @@ class CoinListViewModel @Inject constructor(
 
                 is Resource.Error -> {
                     _state.value = CoinListState(
-                        error = result.message ?: "An unexpected error occured"
+                        error = result.message ?: "An unexpected error occurred"
                     )
                 }
 

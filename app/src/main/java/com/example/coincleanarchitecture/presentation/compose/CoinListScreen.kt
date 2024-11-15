@@ -1,4 +1,4 @@
-package com.example.coinscleanarchiture.presentation
+package com.example.coincleanarchitecture.presentation.compose
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.coincleanarchitecture.presentation.CoinListViewModel
 
 @Composable
 fun CoinListScreen(

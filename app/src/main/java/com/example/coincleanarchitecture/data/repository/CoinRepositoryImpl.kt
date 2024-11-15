@@ -1,8 +1,8 @@
-package com.example.coinscleanarchiture.data.repository
+package com.example.coincleanarchitecture.data.repository
 
-import com.example.coincleanarchitecture.data.remote.CoinDto
-import com.example.coinscleanarchiture.data.remote.CoinApiService
-import com.example.coinscleanarchiture.domain.repository.CoinRepository
+import com.example.coincleanarchitecture.data.remote.CoinApiService
+import com.example.coincleanarchitecture.data.remote.dto.CoinDto
+import com.example.coincleanarchitecture.domain.repository.CoinRepository
 import javax.inject.Inject
 
 class CoinRepositoryImpl @Inject constructor(

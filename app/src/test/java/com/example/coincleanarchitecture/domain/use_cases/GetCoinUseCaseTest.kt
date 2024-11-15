@@ -1,9 +1,8 @@
 package com.example.coincleanarchitecture.domain.use_cases
 
-import com.example.coincleanarchitecture.data.remote.CoinDto
-import com.example.coincleanarchitecture.data.remote.toCoin
-import com.example.coinscleanarchiture.domain.repository.CoinRepository
-import com.example.coinscleanarchiture.domain.use_cases.GetCoinUseCase
+import com.example.coincleanarchitecture.data.remote.dto.CoinDto
+import com.example.coincleanarchitecture.data.remote.dto.toCoin
+import com.example.coincleanarchitecture.domain.repository.CoinRepository
 import kotlinx.coroutines.flow.last
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.*

@@ -1,4 +1,4 @@
-package com.example.coinscleanarchiture.presentation
+package com.example.coincleanarchitecture.presentation.compose
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row

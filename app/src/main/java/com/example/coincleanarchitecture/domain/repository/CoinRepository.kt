@@ -1,6 +1,6 @@
-package com.example.coinscleanarchiture.domain.repository
+package com.example.coincleanarchitecture.domain.repository
 
-import com.example.coincleanarchitecture.data.remote.CoinDto
+import com.example.coincleanarchitecture.data.remote.dto.CoinDto
 
 
 interface CoinRepository {

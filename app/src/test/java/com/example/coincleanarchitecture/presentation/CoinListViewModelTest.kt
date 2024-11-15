@@ -1,12 +1,12 @@
 package com.example.coincleanarchitecture.presentation
 
 import com.example.coincleanarchitecture.common.Resource
-import com.example.coincleanarchitecture.data.remote.CoinDto
-import com.example.coincleanarchitecture.data.remote.toCoin
+import com.example.coincleanarchitecture.data.remote.dto.CoinDto
+import com.example.coincleanarchitecture.data.remote.dto.toCoin
 import com.example.coincleanarchitecture.domain.model.Coin
-import com.example.coinscleanarchiture.domain.use_cases.GetCoinUseCase
-import com.example.coinscleanarchiture.presentation.CoinListViewModel
+import com.example.coincleanarchitecture.domain.use_cases.GetCoinUseCase
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runTest
@@ -21,10 +21,12 @@ import org.mockito.kotlin.whenever
 class CoinListViewModelTest{
     private val getCoinUseCase: GetCoinUseCase = mock()
 
+    @OptIn(ExperimentalCoroutinesApi::class)
     @Before
     fun setup() {
         Dispatchers.setMain(Dispatchers.Unconfined)
     }
+    @OptIn(ExperimentalCoroutinesApi::class)
     @After
     fun tearDown() {
         Dispatchers.resetMain()

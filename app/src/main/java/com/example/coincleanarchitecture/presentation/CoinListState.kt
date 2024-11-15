@@ -1,4 +1,4 @@
-package com.example.coinscleanarchiture.presentation
+package com.example.coincleanarchitecture.presentation
 
 import com.example.coincleanarchitecture.domain.model.Coin
 data class CoinListState(

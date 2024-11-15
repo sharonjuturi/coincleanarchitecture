@@ -1,9 +1,9 @@
-package com.example.coinscleanarchiture.di
+package com.example.coincleanarchitecture.di
 
 import com.example.coincleanarchitecture.common.Constants
-import com.example.coinscleanarchiture.data.remote.CoinApiService
-import com.example.coinscleanarchiture.data.repository.CoinRepositoryImpl
-import com.example.coinscleanarchiture.domain.repository.CoinRepository
+import com.example.coincleanarchitecture.data.remote.CoinApiService
+import com.example.coincleanarchitecture.data.repository.CoinRepositoryImpl
+import com.example.coincleanarchitecture.domain.repository.CoinRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

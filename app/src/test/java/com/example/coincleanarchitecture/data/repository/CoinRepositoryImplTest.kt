@@ -1,8 +1,7 @@
 package com.example.coincleanarchitecture.data.repository
 
-import com.example.coincleanarchitecture.data.remote.CoinDto
-import com.example.coinscleanarchiture.data.remote.CoinApiService
-import com.example.coinscleanarchiture.data.repository.CoinRepositoryImpl
+import com.example.coincleanarchitecture.data.remote.CoinApiService
+import com.example.coincleanarchitecture.data.remote.dto.CoinDto
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.*
 import org.junit.Before

@@ -1,6 +1,6 @@
-package com.example.coinscleanarchiture.data.remote
+package com.example.coincleanarchitecture.data.remote
 
-import com.example.coincleanarchitecture.data.remote.CoinDto
+import com.example.coincleanarchitecture.data.remote.dto.CoinDto
 import retrofit2.http.GET
 
 interface CoinApiService {
