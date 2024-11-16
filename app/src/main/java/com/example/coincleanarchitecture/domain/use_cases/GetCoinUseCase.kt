@@ -22,5 +22,5 @@ class GetCoinUseCase @Inject constructor(
         } catch (e:Exception){
             emit(Resource.Error(e.localizedMessage?:"An unexpected error occurred"))
         }
-    }.flowOn(Dispatchers.IO)
+    }
 }
