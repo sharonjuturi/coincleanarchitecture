@@ -5,10 +5,8 @@ import com.example.coincleanarchitecture.common.Resource
 import com.example.coincleanarchitecture.data.remote.dto.toCoin
 import com.example.coincleanarchitecture.domain.model.Coin
 import com.example.coincleanarchitecture.domain.repository.CoinRepository
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject
 
 class GetCoinUseCase @Inject constructor(
